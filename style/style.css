@@ -160,3 +160,33 @@ nav h5 {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+/* footer style */
+.footer {
+    background-color: #333;
+    color: white; 
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-contact {
+    text-decoration: none;
+    color: white;
+    flex: 1;
+    text-align: right;
+}
+.footer-links {
+    flex: 1;
+    text-align: center;
+    
+}
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer-btn {
+    text-align: right;
+}
